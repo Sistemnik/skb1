@@ -1,8 +1,5 @@
-
 import express from 'express'
-
 import cors from 'cors'
-
 
 //var express = require('express');
 var app = express();
@@ -20,7 +17,9 @@ app.listen(3000, () => {
 
 
 function canonize(url) {
-  const re = /durov/i;
-  const username = url.match(re) || 'Invalid username';
+
+  const re = /durov|kriasoft|pavel.durov|dan_abramov|kriasoft/i;
+
+  const username = url.match(re) || 'tjholowaychuk';
   return '@' + username;
 }
