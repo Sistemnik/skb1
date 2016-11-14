@@ -1,3 +1,10 @@
-/* Краткое описание задачи
-Реализовать Express.js приложение по работе с API, обработка GET запросов для получения данных
+/**
+ * В этом уроке изучено
+ *
+ * JSON Web Token
+ * Express-async-router
+ * Swagger
+ * Bunyan
+ * Tests
 */
+
